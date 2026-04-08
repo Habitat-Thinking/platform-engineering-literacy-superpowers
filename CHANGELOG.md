@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.0 — 2026-04-08
+
+### Multi-Plugin Restructure
+
+- Move plugin into `platform-engineering-literacy-superpowers/` subdirectory
+  to support multi-plugin repo layout
+- Update all path references in README, CONTRIBUTING, Copilot instructions,
+  and prompt files
+- Update install command to include subdirectory path
+
 ## 0.1.1 — 2026-04-08
 
 ### Marketplace Essentials

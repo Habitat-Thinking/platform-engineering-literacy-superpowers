@@ -2,16 +2,21 @@
 
 Thank you for your interest in contributing to this plugin.
 
-## Plugin Structure
+## Repository Structure
+
+This repo uses a multi-plugin layout. Each plugin lives in its own
+subdirectory:
 
 ```text
-platform-engineering-literacy-superpowers/
-├── .claude-plugin/
-│   └── plugin.json          # Plugin manifest
-├── skills/                   # Skills (assessment, future additions)
-│   └── platform-literacy-assessment/
-│       ├── SKILL.md          # Facilitator protocol
-│       └── references/       # Assessment content
+platform-engineering-literacy-superpowers/   # Repo root
+├── platform-engineering-literacy-superpowers/
+│   ├── .claude-plugin/
+│   │   └── plugin.json          # Plugin manifest
+│   └── skills/
+│       └── platform-literacy-assessment/
+│           ├── SKILL.md          # Facilitator protocol
+│           └── references/       # Assessment content
+├── .github/                     # CI and IDE integration
 ├── README.md
 ├── CONTRIBUTING.md
 ├── LICENSE
@@ -20,7 +25,7 @@ platform-engineering-literacy-superpowers/
 
 ## Adding a New Skill
 
-1. Create a directory under `skills/` with a descriptive name
+1. Create a directory under `<plugin-name>/skills/` with a descriptive name
 2. Add a `SKILL.md` with YAML frontmatter:
 
 ```yaml

@@ -10,7 +10,8 @@ that define the assessment protocol and reference content.
 
 - **Voice**: Authoritative but accessible — write for practising
   platform engineers, not academics
-- **Structure**: The PELA skill is in `skills/platform-literacy-assessment/`,
+- **Structure**: The PELA skill is in
+  `platform-engineering-literacy-superpowers/skills/platform-literacy-assessment/`,
   with reference content in `references/`
 - **Naming**: Skills use `SKILL.md` inside a named directory. All
   directory names are lowercase kebab-case.
@@ -19,8 +20,8 @@ that define the assessment protocol and reference content.
 
 ## Plugin Structure
 
-- `skills/` — assessment skills with `SKILL.md` and optional `references/`
-- `.claude-plugin/plugin.json` — plugin manifest
+- `platform-engineering-literacy-superpowers/skills/` — assessment skills with `SKILL.md` and optional `references/`
+- `platform-engineering-literacy-superpowers/.claude-plugin/plugin.json` — plugin manifest
 
 ## Workflow
 
