@@ -1,6 +1,6 @@
 {
   "name": "platform-engineering-literacy-superpowers",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "The Platform Engineering Literacy framework's assessment and development workflow — run the PELA to determine literacy levels across six dimensions, with guided exploration and development roadmaps",
   "author": {
     "name": "Russ Miles"

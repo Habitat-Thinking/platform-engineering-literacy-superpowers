@@ -24,7 +24,7 @@ The output is a layered developmental profile: headline level, dimensional break
 ## Installation
 
 ```bash
-claude plugin add Habitat-Thinking/platform-engineering-literacy-superpowers
+claude plugin add Habitat-Thinking/platform-engineering-literacy-superpowers/platform-engineering-literacy-superpowers
 ```
 
 ## Usage
@@ -43,6 +43,24 @@ Or ask naturally:
 - "Check my level"
 
 The skill supports **individual**, **instructor-led**, and **team** assessments.
+
+## Repository Structure
+
+This repo uses a multi-plugin layout. Each plugin lives in its own
+subdirectory with a self-contained `.claude-plugin/plugin.json` and
+component directories:
+
+```text
+platform-engineering-literacy-superpowers/   # Plugin: PELA skill
+├── .claude-plugin/
+│   └── plugin.json
+└── skills/
+    └── platform-literacy-assessment/
+        ├── SKILL.md
+        └── references/
+```
+
+Future plugins can be added as sibling directories at the repo root.
 
 ## The Framework
 
