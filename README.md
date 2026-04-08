@@ -31,7 +31,7 @@ claude plugin add Habitat-Thinking/platform-engineering-literacy-superpowers
 
 Run the assessment with:
 
-```
+```text
 /platform-literacy-assessment
 ```
 

@@ -4,7 +4,7 @@ Thank you for your interest in contributing to this plugin.
 
 ## Plugin Structure
 
-```
+```text
 platform-engineering-literacy-superpowers/
 ├── .claude-plugin/
 │   └── plugin.json          # Plugin manifest
@@ -30,8 +30,8 @@ description: When this skill should be triggered — be specific about trigger p
 ---
 ```
 
-3. If the skill needs reference content, add a `references/` subdirectory
-4. Open a PR with a clear description of what the skill does and when to use it
+1. If the skill needs reference content, add a `references/` subdirectory
+1. Open a PR with a clear description of what the skill does and when to use it
 
 ## Adding Agents, Commands, and Hooks
 
@@ -51,6 +51,7 @@ derived from the canonical assessment document in the
 framework repository at `framework/assessment/platform-literacy-assessment.md`.
 
 When the canonical document changes:
+
 1. Extract the updated sections into the corresponding reference files
 2. Update the PELA instrument version in `SKILL.md` if rubric descriptors changed
 3. Bump the plugin version in `plugin.json`
