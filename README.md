@@ -1,5 +1,10 @@
 # Platform Engineering Literacy Superpowers
 
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue?style=flat-square)](LICENSE)
+[![Plugin Version](https://img.shields.io/badge/Plugin-v0.2.0-5A67D8?style=flat-square)](platform-engineering-literacy-superpowers/.claude-plugin/plugin.json)
+[![Claude Code](https://img.shields.io/badge/Claude_Code-Plugin-6B4FBB?style=flat-square&logo=anthropic&logoColor=white)](https://docs.anthropic.com/en/docs/claude-code)
+[![Markdown Lint](https://img.shields.io/github/actions/workflow/status/Habitat-Thinking/platform-engineering-literacy-superpowers/lint-markdown.yml?style=flat-square&label=Markdown%20Lint)](https://github.com/Habitat-Thinking/platform-engineering-literacy-superpowers/actions/workflows/lint-markdown.yml)
+[![Harness CI](https://img.shields.io/github/actions/workflow/status/Habitat-Thinking/platform-engineering-literacy-superpowers/harness.yml?style=flat-square&label=Harness%20CI)](https://github.com/Habitat-Thinking/platform-engineering-literacy-superpowers/actions/workflows/harness.yml)
 [![Harness](https://img.shields.io/badge/Harness-7%2F7_enforced-808080?style=flat-square)](HARNESS.md)
 [![Agent Harness Enabled](https://img.shields.io/badge/Agent_Harness-Enabled-000000?style=flat-square)](HARNESS.md)
 [![Harness Health](https://img.shields.io/badge/Health-Attention-F5A623?style=flat-square)](observability/snapshots/2026-04-10-snapshot.md)
