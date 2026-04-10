@@ -8,6 +8,7 @@
 [![Harness](https://img.shields.io/badge/Harness-7%2F7_enforced-808080?style=flat-square)](HARNESS.md)
 [![Agent Harness Enabled](https://img.shields.io/badge/Agent_Harness-Enabled-000000?style=flat-square)](HARNESS.md)
 [![Harness Health](https://img.shields.io/badge/Health-Attention-F5A623?style=flat-square)](observability/snapshots/2026-04-10-snapshot.md)
+[![AI Literacy](https://img.shields.io/badge/AI_Literacy-Level_2-4682B4?style=flat-square)](assessments/2026-04-10-assessment.md)
 
 A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin that provides the **Platform Engineering Literacy Assessment (PELA)** — a three-phase assessment protocol for determining literacy levels across six dimensions of platform engineering practice.
 
