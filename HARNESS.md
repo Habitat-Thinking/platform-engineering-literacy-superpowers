@@ -95,6 +95,13 @@
 - **Tool**: agent review
 - **Scope**: pr
 
+### CI workflow validity
+
+- **Rule**: All GitHub Actions workflow files must have valid YAML syntax, use correct pinned action SHAs that resolve, and reference tools that are installed in the runner environment
+- **Enforcement**: agent
+- **Tool**: agent review
+- **Scope**: pr
+
 ---
 
 ## Garbage Collection
@@ -157,7 +164,7 @@
 <!-- Auto-updated by /harness-audit — do not edit manually -->
 
 Last audit: 2026-04-10
-Constraints declared: 7 (deterministic: 2, agent: 5)
-Constraints passing: 7/7
+Constraints declared: 8 (deterministic: 2, agent: 6)
+Constraints passing: 8/8
 Garbage collection active: 0/6 (never run)
 Drift detected: none
