@@ -1,5 +1,8 @@
 # Platform Engineering Literacy Superpowers
 
+[![Harness](https://img.shields.io/badge/Harness-2%2F7_enforced-808080?style=flat-square)](HARNESS.md)
+[![Agent Harness Enabled](https://img.shields.io/badge/Agent_Harness-Enabled-000000?style=flat-square)](HARNESS.md)
+
 A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin that provides the **Platform Engineering Literacy Assessment (PELA)** — a three-phase assessment protocol for determining literacy levels across six dimensions of platform engineering practice.
 
 ## What is the PELA?
