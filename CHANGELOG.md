@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.1 — 2026-04-10
+
+### Framework Sync: Course-Framework Enrichments
+
+- Update fluency habit mapping to reflect Evidence-First Response spanning
+  L2 (introduced in Module 2.5) and L3 (deepened in Module 3.2), matching
+  the framework's bidirectional course-framework sync
+
 ## 0.2.0 — 2026-04-08
 
 ### Multi-Plugin Restructure

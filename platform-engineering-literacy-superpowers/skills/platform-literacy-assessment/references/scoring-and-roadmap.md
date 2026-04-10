@@ -117,7 +117,7 @@ Use this reference to connect assessment dimensions to course content:
 | Context Awareness | L0: The User-First Question, L1: The Map Reflex, L2: The Co-Design Instinct |
 | Cognitive Load Design | L0: The Cognitive Load Check, L2: The 4pm Friday Test |
 | Pattern Application | L0: The Amplifier Audit, L2: The Pattern Check |
-| Feedback and Measurement | L1: The Feedback Loop Probe, L3: The Evidence-First Response |
+| Feedback and Measurement | L1: The Feedback Loop Probe, L2: The Evidence-First Response (introduced), L3: The Evidence-First Response (deepened) |
 | Strategic Thinking | L1: The Map Reflex, L1: The Perspective Shift, L3: The Smallest Slice |
 | Human and Cultural Dimensions | L2: The Co-Design Instinct, L3: The Entropy Sweep, L4: The Teaching Reflex, L4: The Knowledge Preservation Check |
 
