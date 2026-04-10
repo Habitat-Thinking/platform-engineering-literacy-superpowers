@@ -23,7 +23,7 @@ Look at where the weight of your placements sits:
 ## What confidence means
 
 | Phases completed | Confidence | What it tells you |
-|-----------------|------------|-------------------|
+| --------------- | ---------- | ----------------- |
 | Quick Scan only | Low | A starting point. Your self-rating has not been tested. Useful for initial orientation and team aggregation. |
 | Quick Scan + Guided Exploration | Medium | Refined. A facilitator or structured self-reflection has probed your placements. Reliable enough for development planning. |
 | All three phases | High | Validated. Self-rating, conversational probing, and scenario/evidence review all inform the placement. Reliable for instructor placement and team-level decisions. |
@@ -56,7 +56,7 @@ Copy this template and fill in your results. For each dimension where you
 want to grow, identify the specific gap between your current level and the
 next, and map it to course modules and fluency habits.
 
-```
+```text
 Name: ___________________________
 Date: ___________________________
 Assessor: self / facilitator / Claude
@@ -102,7 +102,7 @@ Priority 3: __________________ (Level ___ → ___)
 Use this reference to connect assessment dimensions to course content:
 
 | Dimension | Primary modules | Supporting modules |
-|-----------|----------------|-------------------|
+| --------- | -------------- | ----------------- |
 | Context Awareness | 0.1 The Platform You Already Have, 1.1 Wardley Mapping, 1.3 User Needs Mapping, 1.4 Value Stream Mapping | 1.2 Systems Thinking with DSRP |
 | Cognitive Load Design | 0.2 Cognitive Load and Empathy, 2.3 Designing for Cognitive Flow, 2.5 Developer Experience Audit | 2.1 Platform Pattern Language |
 | Pattern Application | 2.1 The Platform Pattern Language, 2.2 Domain-Driven Platform Design, 2.4 Co-Design with Developers | 3.1 Building and Shipping Incrementally |
@@ -113,7 +113,7 @@ Use this reference to connect assessment dimensions to course content:
 ## Dimension-to-fluency-habit mapping
 
 | Dimension | Key fluency habits by level |
-|-----------|---------------------------|
+| --------- | ------------------------- |
 | Context Awareness | L0: The User-First Question, L1: The Map Reflex, L2: The Co-Design Instinct |
 | Cognitive Load Design | L0: The Cognitive Load Check, L2: The 4pm Friday Test |
 | Pattern Application | L0: The Amplifier Audit, L2: The Pattern Check |
@@ -127,7 +127,7 @@ Use this sheet to record successive assessments and track movement over time.
 Each row is one assessment. Compare the same instrument version for meaningful
 longitudinal comparison (see the version field in the output format).
 
-```
+```text
 ASSESSMENT HISTORY
 
 | Date       | Version | Assessor   | CA | CLD | PA | FM | ST | HC | Overall | Notes |

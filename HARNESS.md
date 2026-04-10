@@ -156,7 +156,8 @@
 
 <!-- Auto-updated by /harness-audit — do not edit manually -->
 
-Last audit: never
-Constraints enforced: 2/7 (deterministic: 2, agent: 5)
-Garbage collection active: 0/6
-Drift detected: not yet audited
+Last audit: 2026-04-10
+Constraints declared: 7 (deterministic: 2, agent: 5)
+Constraints passing: 7/7
+Garbage collection active: 0/6 (never run)
+Drift detected: none
