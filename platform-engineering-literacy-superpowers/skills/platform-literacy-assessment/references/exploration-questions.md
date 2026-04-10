@@ -10,7 +10,7 @@ describe what responses at each level typically sound like.
 
 ## Context Awareness
 
-**Boundary 0→1: From awareness to systematic exploration**
+### Boundary 0→1: From awareness to systematic exploration
 
 1. "How do you currently find out what your platform's users need?"
    - *Level 0 signal:* Describes informal channels — "they tell us in Slack" or "we get tickets." The sensing is reactive and ad hoc.
@@ -24,7 +24,7 @@ describe what responses at each level typically sound like.
    - *Level 0 signal:* Reaches for a technology diagram or architecture drawing.
    - *Level 1 signal:* Reaches for a Wardley Map, value stream map, or user needs map — a tool designed to reveal strategic position, not just technical structure.
 
-**Boundary 1→2: From exploration to design decisions**
+### Boundary 1→2: From exploration to design decisions
 
 1. "Show me a design decision you made recently. What context informed that decision?"
    - *Level 1 signal:* Can describe the context but the connection to the design decision is loose or post-hoc — "we knew about X, so we built Y."
@@ -38,7 +38,7 @@ describe what responses at each level typically sound like.
    - *Level 1 signal:* Change came from implementation discovery — "we found it was harder than we thought."
    - *Level 2 signal:* Change came from design-time exploration — co-design with developers, pattern analysis, or deeper context mapping revealed a different problem than originally assumed.
 
-**Boundary 2→3: From design to living systems**
+### Boundary 2→3: From design to living systems
 
 1. "How do you keep your understanding of the platform landscape current?"
    - *Level 2 signal:* Produces maps and analyses periodically but they tend to go stale. Context gathering is an event, not a practice.
@@ -52,7 +52,7 @@ describe what responses at each level typically sound like.
    - *Level 2 signal:* Maps inform the team's thinking but stakeholder requests drive priorities.
    - *Level 3 signal:* Can use maps to have strategic conversations with stakeholders — showing them why their request might not be the highest-leverage investment, or reframing their request in strategic terms.
 
-**Boundary 3→4: From engineering to stewardship**
+### Boundary 3→4: From engineering to stewardship
 
 1. "If you left the team tomorrow, would strategic context awareness continue? How?"
    - *Level 3 signal:* The practice depends substantially on the individual — they drive the mapping sessions, they hold the strategic perspective.
@@ -68,7 +68,7 @@ describe what responses at each level typically sound like.
 
 ## Cognitive Load Design
 
-**Boundary 0→1: From recognising load to diagnosing it**
+### Boundary 0→1: From recognising load to diagnosing it
 
 1. "Walk me through the last developer workflow you looked at critically. Where was the unnecessary complexity?"
    - *Level 0 signal:* Can point to obvious friction — "the deploy process has too many steps" — but the analysis is surface-level.
@@ -82,7 +82,7 @@ describe what responses at each level typically sound like.
    - *Level 0 signal:* Relies on developer complaints or personal experience.
    - *Level 1 signal:* Uses structured techniques — workflow tracing, developer shadowing, cognitive walkthroughs.
 
-**Boundary 1→2: From diagnosis to design**
+### Boundary 1→2: From diagnosis to design
 
 1. "Tell me about a platform feature you designed specifically to reduce cognitive load. How did you know it worked?"
    - *Level 1 signal:* Can describe features that happen to reduce load, but the load reduction was not the explicit design intent — or cannot show evidence it worked.
@@ -96,7 +96,7 @@ describe what responses at each level typically sound like.
    - *Level 1 signal:* Cannot recall a specific instance, or the rejection was based on general complexity concerns.
    - *Level 2 signal:* Can describe a specific instance with the reasoning — what load it would have added, for whom, and what the alternative was.
 
-**Boundary 2→3: From design to measurement**
+### Boundary 2→3: From design to measurement
 
 1. "How do you measure cognitive load in your platform today?"
    - *Level 2 signal:* Relies on qualitative signals — developer satisfaction surveys, anecdotal feedback, personal observation.
@@ -110,7 +110,7 @@ describe what responses at each level typically sound like.
    - *Level 2 signal:* Cognitive load is a design consideration within features but does not drive roadmap prioritisation.
    - *Level 3 signal:* Cognitive load measurement directly influences what the team builds next — it is a first-class input to planning.
 
-**Boundary 3→4: From measurement to organisational practice**
+### Boundary 3→4: From measurement to organisational practice
 
 1. "Do teams outside your immediate platform team consider cognitive load when making design decisions?"
    - *Level 3 signal:* The platform team considers it; other teams benefit from it but do not think in those terms.
@@ -122,7 +122,7 @@ describe what responses at each level typically sound like.
 
 ## Pattern Application
 
-**Boundary 0→1: From naming to evaluating**
+### Boundary 0→1: From naming to evaluating
 
 1. "Pick any three of the ten platform patterns. How do they show up — or fail to show up — in your current platform?"
    - *Level 0 signal:* Can name the patterns and give textbook descriptions but struggles to connect them to their own platform.
@@ -132,7 +132,7 @@ describe what responses at each level typically sound like.
    - *Level 0 signal:* Answers in general terms — "we're good at self-service."
    - *Level 1 signal:* Answers with specifics and evidence — "our golden path for microservice creation is strong because 80% of teams use it voluntarily, but our observability pattern is weak because developers can't see what the platform does on their behalf during deployment."
 
-**Boundary 1→2: From evaluating to designing**
+### Boundary 1→2: From evaluating to designing
 
 1. "Tell me about a platform feature you designed. Which patterns did you apply, and were there tensions between them?"
    - *Level 1 signal:* Can retrospectively identify which patterns a feature embodies, but didn't consciously use the patterns during design.
@@ -146,7 +146,7 @@ describe what responses at each level typically sound like.
    - *Level 1 signal:* Cannot recall a deliberate omission, or omitted a pattern because it seemed too hard.
    - *Level 2 signal:* Made a deliberate design choice — "we chose not to build extensibility here because the use cases are well-known and the cost of extension points would add complexity without clear benefit."
 
-**Boundary 2→3: From designing to shipping incrementally**
+### Boundary 2→3: From designing to shipping incrementally
 
 1. "How do you deliver a complex pattern like Composability or Extensibility? Do you ship it all at once or incrementally?"
    - *Level 2 signal:* Designs the full pattern and delivers it as a project — a single release or a small number of large releases.
@@ -160,7 +160,7 @@ describe what responses at each level typically sound like.
    - *Level 2 signal:* Redesigned the feature based on feedback.
    - *Level 3 signal:* Ran a systematic learning loop — measured what went wrong, hypothesised why, tested the hypothesis, and shipped a refined version. Can show the evidence trail.
 
-**Boundary 3→4: From shipping to evolving the language**
+### Boundary 3→4: From shipping to evolving the language
 
 1. "Has your team identified any patterns that the standard ten don't cover?"
    - *Level 3 signal:* Applies the existing ten patterns effectively but hasn't needed to extend them.
@@ -172,7 +172,7 @@ describe what responses at each level typically sound like.
 
 ## Feedback and Measurement
 
-**Boundary 0→1: From understanding importance to mapping loops**
+### Boundary 0→1: From understanding importance to mapping loops
 
 1. "What feedback loops exist in your platform today? How fast do they close?"
    - *Level 0 signal:* Can identify that feedback exists ("we have monitoring") but cannot describe the loop — who sees the signal, what action it triggers, and how quickly.
@@ -186,7 +186,7 @@ describe what responses at each level typically sound like.
    - *Level 0 signal:* Has not systematically looked for gaps.
    - *Level 1 signal:* Can identify specific blind spots — "we have no signal on how long developers spend understanding platform errors before finding the right action."
 
-**Boundary 1→2: From mapping to designing**
+### Boundary 1→2: From mapping to designing
 
 1. "Tell me about a feedback loop you designed into a platform capability. How did you decide what to measure?"
    - *Level 1 signal:* Added monitoring or metrics to an existing feature but the feedback loop was not part of the original design.
@@ -200,7 +200,7 @@ describe what responses at each level typically sound like.
    - *Level 1 signal:* Measures what is easy to measure or what is standard practice (DORA metrics, uptime).
    - *Level 2 signal:* Measures what informs specific decisions — can articulate "we measure X because it tells us Y, which helps us decide Z."
 
-**Boundary 2→3: From designing to operating**
+### Boundary 2→3: From designing to operating
 
 1. "Show me your platform scorecard. What does it track and how do you use it?"
    - *Level 2 signal:* Has metrics and dashboards but no integrated scorecard — measurements are scattered and not used systematically for decisions.
@@ -214,7 +214,7 @@ describe what responses at each level typically sound like.
    - *Level 2 signal:* Gathers feedback periodically (surveys, retros) but discovery is episodic.
    - *Level 3 signal:* Has continuous mechanisms — regular developer interviews, usage analytics, feedback channels with review cadences.
 
-**Boundary 3→4: From operating to organisational practice**
+### Boundary 3→4: From operating to organisational practice
 
 1. "Do teams outside the platform team use measurement to drive their own platform-related decisions?"
    - *Level 3 signal:* The platform team measures well; other teams consume the results but do not drive their own measurement.
@@ -226,7 +226,7 @@ describe what responses at each level typically sound like.
 
 ## Strategic Thinking
 
-**Boundary 0→1: From awareness to mapping**
+### Boundary 0→1: From awareness to mapping
 
 1. "When you last made a significant platform technology choice, what information did you base it on?"
    - *Level 0 signal:* Based on technical merit, team familiarity, or industry trends — "we chose Kubernetes because everyone uses it."
@@ -240,7 +240,7 @@ describe what responses at each level typically sound like.
    - *Level 0 signal:* Has not connected platform decisions to organisational strategy — the platform is seen as a technical concern.
    - *Level 1 signal:* Can identify specific platform components that would need to change and why — "if we pivot to B2B, our multi-tenancy abstractions become critical and need to move from custom to commodity."
 
-**Boundary 1→2: From mapping to design influence**
+### Boundary 1→2: From mapping to design influence
 
 1. "Show me a design decision that was directly informed by strategic analysis. What was the analysis and what did it change?"
    - *Level 1 signal:* Has strategic awareness but it lives alongside design decisions rather than driving them.
@@ -250,7 +250,7 @@ describe what responses at each level typically sound like.
    - *Level 1 signal:* Treats them as separate concerns — strategic thinking happens in planning, developer needs drive day-to-day.
    - *Level 2 signal:* Integrates them — makes design decisions that serve immediate needs while maintaining strategic optionality.
 
-**Boundary 2→3: From design influence to strategic leadership**
+### Boundary 2→3: From design influence to strategic leadership
 
 1. "How do you justify platform investment to non-technical stakeholders?"
    - *Level 2 signal:* Justifies in technical terms that stakeholders accept but may not deeply understand.
@@ -260,7 +260,7 @@ describe what responses at each level typically sound like.
    - *Level 2 signal:* Has a roadmap but it is feature-driven rather than evolution-driven.
    - *Level 3 signal:* Has an evolution-aware plan — knows what to build now, what to buy as it commoditises, and where to invest ahead of the curve.
 
-**Boundary 3→4: From strategic leadership to stewardship**
+### Boundary 3→4: From strategic leadership to stewardship
 
 1. "How do you maintain strategic coherence when leadership priorities change?"
    - *Level 3 signal:* Adapts the platform strategy to new leadership priorities.
@@ -272,7 +272,7 @@ describe what responses at each level typically sound like.
 
 ## Human and Cultural Dimensions
 
-**Boundary 0→1: From recognising people matter to empathy-driven exploration**
+### Boundary 0→1: From recognising people matter to empathy-driven exploration
 
 1. "When did you last spend time watching a developer use your platform? What did you learn?"
    - *Level 0 signal:* Has not done this, or did it informally and long ago.
@@ -286,7 +286,7 @@ describe what responses at each level typically sound like.
    - *Level 0 signal:* General surprise — "they don't use it the way we expected."
    - *Level 1 signal:* Specific surprise grounded in structured exploration — "during shadowing, we discovered that developers were copying configuration from a shared doc rather than using our self-service tool, because the tool's terminology didn't match their mental model."
 
-**Boundary 1→2: From exploration to co-design**
+### Boundary 1→2: From exploration to co-design
 
 1. "Tell me about a platform feature that was shaped by developer input during design, not just after launch."
    - *Level 1 signal:* Gathered requirements from developers before building, but the design was done by the platform team.
@@ -300,7 +300,7 @@ describe what responses at each level typically sound like.
    - *Level 1 signal:* Does not recognise this distinction consistently.
    - *Level 2 signal:* Recognises it and has a corrective habit — stops, involves developers, adjusts the design.
 
-**Boundary 2→3: From co-design to adoption strategy**
+### Boundary 2→3: From co-design to adoption strategy
 
 1. "Tell me about a platform capability that developers resisted adopting. What did you learn?"
    - *Level 2 signal:* Describes the resistance and the eventual fix, but the learning is about the technical solution.
@@ -314,7 +314,7 @@ describe what responses at each level typically sound like.
    - *Level 2 signal:* Defaults to one approach or decides based on urgency.
    - *Level 3 signal:* Makes a deliberate choice based on context — understands when mandate is appropriate (security, compliance) versus when voluntary adoption is more sustainable, and designs the rollout accordingly.
 
-**Boundary 3→4: From adoption strategy to teaching and community**
+### Boundary 3→4: From adoption strategy to teaching and community
 
 1. "How do you help other platform engineers develop their skills?"
    - *Level 3 signal:* Mentors informally — answers questions, reviews work, shares knowledge when asked.

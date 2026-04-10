@@ -52,6 +52,7 @@ six dimensions one at a time. For each dimension:
 4. Record the selection and any calibration notes
 
 After all six dimensions, present the **provisional profile**:
+
 - A table showing the level for each dimension
 - The overall dominant level (using dominant-pattern placement)
 - Any interesting signals: wide splits, boundary placements, surprises
@@ -62,12 +63,14 @@ Analyse the provisional profile and identify 2-3 dimensions to explore.
 Read the questions from `references/exploration-questions.md`.
 
 **Prioritise exploring when:**
+
 - Two dimensions are 2+ levels apart (wide split)
 - A dimension is at a level boundary where the calibration answer was thin
 - The overall profile shows a recognisable pattern (Technical-Human Split,
   Thinker-Doer Split, Spiky Expert) that warrants investigation
 
 For each selected dimension:
+
 - Use questions targeting the relevant level boundary
 - Listen for competence markers and fluency habits in the responses
 - If the conversation reveals a different level than the self-rating,
@@ -87,6 +90,7 @@ After presenting the confirmed profile, offer the Deep Dive:
 > you like to go deeper on any dimension?"
 
 If accepted, read scenarios from `references/scenario-bank.md`:
+
 - Present scenarios for the relevant dimension and level boundary
 - For evidence review, ask the person to describe or share the artefact,
   then evaluate against the competence markers for the claimed level
@@ -117,6 +121,7 @@ Thinking and a Level 1 gap in Feedback and Measurement."
 dimension.
 
 **Development Roadmap:** For each dimension where growth is actionable:
+
 - Gap identified
 - Recommended course modules (use the dimension-to-module mapping in
   `references/scoring-and-roadmap.md`)
@@ -152,5 +157,5 @@ When assessing a team:
 - Exploration questions: `references/exploration-questions.md`
 - Scenario bank: `references/scenario-bank.md`
 - Scoring and roadmap: `references/scoring-and-roadmap.md`
-- Full framework: https://github.com/russmiles/platform-engineering-literacy
+- Full framework: <https://github.com/russmiles/platform-engineering-literacy>
 - Previous assessments: `assessments/`
