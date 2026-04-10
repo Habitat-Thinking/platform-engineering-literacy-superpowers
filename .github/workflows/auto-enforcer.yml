@@ -149,8 +149,8 @@ jobs:
           import json, sys
           constraints = json.loads(sys.stdin.read())
           for c in constraints:
-              print(f\"{c['name']}|||{c['tool']}\")
-          " | while IFS='|||' read -r name tool; do
+              print(f\"{c['name']}\t{c['tool']}\")
+          " | while IFS=$'\t' read -r name tool; do
             [ -z "$name" ] && continue
             echo "::group::Deterministic: $name"
             echo "Running: $tool"
@@ -231,8 +231,8 @@ jobs:
           import json, sys
           constraints = json.loads(sys.stdin.read())
           for c in constraints:
-              print(f\"{c['name']}|||{c['rule']}\")
-          " | while IFS='|||' read -r name rule; do
+              print(f\"{c['name']}\t{c['rule']}\")
+          " | while IFS=$'\t' read -r name rule; do
             [ -z "$name" ] && continue
             echo "::group::Agent: $name"
 
