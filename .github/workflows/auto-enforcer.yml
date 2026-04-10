@@ -43,6 +43,15 @@ jobs:
             echo "SKIP_ALL=true" >> "$GITHUB_ENV"
           fi
 
+      - name: Install deterministic tools
+        if: env.SKIP_ALL != 'true'
+        run: |
+          # Install markdownlint-cli2
+          npm install -g markdownlint-cli2
+          # Install gitleaks
+          GITLEAKS_VERSION="8.24.3"
+          curl -sSfL "https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz" | tar xz -C /usr/local/bin gitleaks
+
       - name: Parse PR-scoped constraints
         if: env.SKIP_ALL != 'true'
         run: |
